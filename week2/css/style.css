@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("image/b1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    }
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li,a,button{
+    font-weight: 500;
+    font-size: 16px;
+    color: rgb(156, 192, 183);
+    text-decoration: none;
+}
+header{
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 1%;
+}
+.logo{
+    cursor: pointer;
+    width: 200px;
+    height: 100px;
+}
+.chat{
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+.prof{
+    height: 50px;
+    width: 50px;
+    background-color: gray;
+    border-radius: 100%;
+}
+.nav{
+    list-style: none;
+    background-color: rgb();
+}
+.nav li{
+    display: inline-block;
+    padding: 10px 20px;
+}
+.nav li a {
+    transition: all 0.3s ease 0s;
+}
+.nav li a:hover {
+    color: rgb(207, 116, 41);
+}
+button{
+    padding: 9px 25px;
+    background-color: rgb(16, 173, 184);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+.column {
+    float:left;
+    column-gap: 50px;
+}
+.left{
+    width: 65%;
+    background-color: rgb(255, 255, 255, 0.4);
+    overflow: auto;
+  
+
+}  
+.right{
+    float:right;
+    width: 25%;
+    background-color: rgb(255, 255, 255, 0.4);
+    overflow: auto;
+}
+
+.slime{
+    display: block;
+    max-width: 100%;
+    height: 200px;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+}
+.title{
+    text-align: center;
+}
+.youtube{
+    position: relative;
+    width:100%;
+    overflow: hidden;
+    padding-top: 56.25%;
+}
+.Vid{
+    position:absolute;
+    top: 0;
+    left:0;
+    bottom:0;
+    right:0;
+    width:50%;
+    height:50%;
+    border:none;
+}
+@media only screen and (max-width: 600px) {
+.left, .right{
+    width: 100%;
+}
+}
